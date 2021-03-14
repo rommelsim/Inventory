@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7808AF7025FE13D5005E30BC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808AF6F25FE13D5005E30BC /* ImagePicker.swift */; };
+		7853317925FCFBD400C6F454 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853317825FCFBD400C6F454 /* DetailView.swift */; };
+		7853318025FDC73700C6F454 /* HomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853317F25FDC73700C6F454 /* HomeRow.swift */; };
+		7862173A25FDDEA400C0A5E2 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862173825FDDEA400C0A5E2 /* Item+CoreDataClass.swift */; };
+		7862173B25FDDEA400C0A5E2 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862173925FDDEA400C0A5E2 /* Item+CoreDataProperties.swift */; };
+		7877C2EB25FCA81100BDA16D /* Rommel_InventoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877C2EA25FCA81100BDA16D /* Rommel_InventoryApp.swift */; };
+		7877C2EF25FCA81300BDA16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7877C2EE25FCA81300BDA16D /* Assets.xcassets */; };
+		7877C2F225FCA81300BDA16D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7877C2F125FCA81300BDA16D /* Preview Assets.xcassets */; };
+		7877C2F425FCA81300BDA16D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877C2F325FCA81300BDA16D /* Persistence.swift */; };
+		7877C2F725FCA81300BDA16D /* Rommel_Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7877C2F525FCA81300BDA16D /* Rommel_Inventory.xcdatamodeld */; };
+		7877C30225FCA88C00BDA16D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877C30125FCA88C00BDA16D /* HomeView.swift */; };
+		7877C30B25FCABED00BDA16D /* Seller+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877C30725FCABED00BDA16D /* Seller+CoreDataClass.swift */; };
+		7877C30C25FCABED00BDA16D /* Seller+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877C30825FCABED00BDA16D /* Seller+CoreDataProperties.swift */; };
+		7877C30F25FCAC6A00BDA16D /* newItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877C30E25FCAC6A00BDA16D /* newItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7808AF6F25FE13D5005E30BC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7853317825FCFBD400C6F454 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7853317F25FDC73700C6F454 /* HomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRow.swift; sourceTree = "<group>"; };
+		7862173825FDDEA400C0A5E2 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7862173925FDDEA400C0A5E2 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7877C2E725FCA81100BDA16D /* Rommel Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rommel Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7877C2EA25FCA81100BDA16D /* Rommel_InventoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rommel_InventoryApp.swift; sourceTree = "<group>"; };
+		7877C2EE25FCA81300BDA16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7877C2F125FCA81300BDA16D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7877C2F325FCA81300BDA16D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7877C2F625FCA81300BDA16D /* Rommel_Inventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rommel_Inventory.xcdatamodel; sourceTree = "<group>"; };
+		7877C2F825FCA81300BDA16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7877C30125FCA88C00BDA16D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7877C30725FCABED00BDA16D /* Seller+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seller+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7877C30825FCABED00BDA16D /* Seller+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seller+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7877C30E25FCAC6A00BDA16D /* newItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7877C2E425FCA81100BDA16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7808AF6425FE0F81005E30BC /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				7808AF6F25FE13D5005E30BC /* ImagePicker.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		7853317E25FDC72800C6F454 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7877C30125FCA88C00BDA16D /* HomeView.swift */,
+				7853317F25FDC73700C6F454 /* HomeRow.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7877C2DE25FCA81100BDA16D = {
+			isa = PBXGroup;
+			children = (
+				7877C2EA25FCA81100BDA16D /* Rommel_InventoryApp.swift */,
+				7877C2E925FCA81100BDA16D /* Rommel Inventory */,
+				7877C2E825FCA81100BDA16D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7877C2E825FCA81100BDA16D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7877C2E725FCA81100BDA16D /* Rommel Inventory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7877C2E925FCA81100BDA16D /* Rommel Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				789B5FB325FDDD6000622191 /* Models */,
+				7877C30025FCA88300BDA16D /* Views */,
+				7877C2EE25FCA81300BDA16D /* Assets.xcassets */,
+				7877C2F825FCA81300BDA16D /* Info.plist */,
+				7877C2F025FCA81300BDA16D /* Preview Content */,
+			);
+			path = "Rommel Inventory";
+			sourceTree = "<group>";
+		};
+		7877C2F025FCA81300BDA16D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7877C2F125FCA81300BDA16D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7877C30025FCA88300BDA16D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7808AF6425FE0F81005E30BC /* Photos */,
+				789B5FB225FDDD4F00622191 /* NewItem */,
+				789B5FB125FDDD4700622191 /* Detail */,
+				7853317E25FDC72800C6F454 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		789B5FB125FDDD4700622191 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				7853317825FCFBD400C6F454 /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		789B5FB225FDDD4F00622191 /* NewItem */ = {
+			isa = PBXGroup;
+			children = (
+				7877C30E25FCAC6A00BDA16D /* newItemView.swift */,
+			);
+			path = NewItem;
+			sourceTree = "<group>";
+		};
+		789B5FB325FDDD6000622191 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7877C2F325FCA81300BDA16D /* Persistence.swift */,
+				7862173825FDDEA400C0A5E2 /* Item+CoreDataClass.swift */,
+				7862173925FDDEA400C0A5E2 /* Item+CoreDataProperties.swift */,
+				7877C30725FCABED00BDA16D /* Seller+CoreDataClass.swift */,
+				7877C30825FCABED00BDA16D /* Seller+CoreDataProperties.swift */,
+				7877C2F525FCA81300BDA16D /* Rommel_Inventory.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7877C2E625FCA81100BDA16D /* Rommel Inventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7877C2FB25FCA81300BDA16D /* Build configuration list for PBXNativeTarget "Rommel Inventory" */;
+			buildPhases = (
+				7877C2E325FCA81100BDA16D /* Sources */,
+				7877C2E425FCA81100BDA16D /* Frameworks */,
+				7877C2E525FCA81100BDA16D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rommel Inventory";
+			productName = "Rommel Inventory";
+			productReference = 7877C2E725FCA81100BDA16D /* Rommel Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7877C2DF25FCA81100BDA16D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7877C2E625FCA81100BDA16D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7877C2E225FCA81100BDA16D /* Build configuration list for PBXProject "Rommel Inventory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7877C2DE25FCA81100BDA16D;
+			productRefGroup = 7877C2E825FCA81100BDA16D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7877C2E625FCA81100BDA16D /* Rommel Inventory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7877C2E525FCA81100BDA16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7877C2F225FCA81300BDA16D /* Preview Assets.xcassets in Resources */,
+				7877C2EF25FCA81300BDA16D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7877C2E325FCA81100BDA16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7862173A25FDDEA400C0A5E2 /* Item+CoreDataClass.swift in Sources */,
+				7877C30B25FCABED00BDA16D /* Seller+CoreDataClass.swift in Sources */,
+				7853317925FCFBD400C6F454 /* DetailView.swift in Sources */,
+				7877C2F425FCA81300BDA16D /* Persistence.swift in Sources */,
+				7877C30C25FCABED00BDA16D /* Seller+CoreDataProperties.swift in Sources */,
+				7877C30225FCA88C00BDA16D /* HomeView.swift in Sources */,
+				7853318025FDC73700C6F454 /* HomeRow.swift in Sources */,
+				7877C2F725FCA81300BDA16D /* Rommel_Inventory.xcdatamodeld in Sources */,
+				7877C30F25FCAC6A00BDA16D /* newItemView.swift in Sources */,
+				7808AF7025FE13D5005E30BC /* ImagePicker.swift in Sources */,
+				7862173B25FDDEA400C0A5E2 /* Item+CoreDataProperties.swift in Sources */,
+				7877C2EB25FCA81100BDA16D /* Rommel_InventoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7877C2F925FCA81300BDA16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7877C2FA25FCA81300BDA16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7877C2FC25FCA81300BDA16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rommel Inventory/Preview Content\"";
+				DEVELOPMENT_TEAM = JFQKT254NR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rommel Inventory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rommel.Rommel-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7877C2FD25FCA81300BDA16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rommel Inventory/Preview Content\"";
+				DEVELOPMENT_TEAM = JFQKT254NR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rommel Inventory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rommel.Rommel-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7877C2E225FCA81100BDA16D /* Build configuration list for PBXProject "Rommel Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7877C2F925FCA81300BDA16D /* Debug */,
+				7877C2FA25FCA81300BDA16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7877C2FB25FCA81300BDA16D /* Build configuration list for PBXNativeTarget "Rommel Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7877C2FC25FCA81300BDA16D /* Debug */,
+				7877C2FD25FCA81300BDA16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7877C2F525FCA81300BDA16D /* Rommel_Inventory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7877C2F625FCA81300BDA16D /* Rommel_Inventory.xcdatamodel */,
+			);
+			currentVersion = 7877C2F625FCA81300BDA16D /* Rommel_Inventory.xcdatamodel */;
+			path = Rommel_Inventory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7877C2DF25FCA81100BDA16D /* Project object */;
+}
