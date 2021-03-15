@@ -10,11 +10,13 @@ import SwiftUI
 struct HomeView: View {
     @State var showNewItemView:Bool = false
     @State var showFavouritesOnly:Bool = false
+    @State var selectedTab = 0
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(entity: Item.entity(), sortDescriptors: []) var FetchedItems:FetchedResults<Item>
     
     
     var body: some View {
+        
         NavigationView{
             List{
                 ForEach(FetchedItems) { item in

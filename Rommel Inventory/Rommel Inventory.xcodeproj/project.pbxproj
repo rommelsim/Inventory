@@ -21,6 +21,9 @@
 		7877C30B25FCABED00BDA16D /* Seller+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877C30725FCABED00BDA16D /* Seller+CoreDataClass.swift */; };
 		7877C30C25FCABED00BDA16D /* Seller+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877C30825FCABED00BDA16D /* Seller+CoreDataProperties.swift */; };
 		7877C30F25FCAC6A00BDA16D /* newItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877C30E25FCAC6A00BDA16D /* newItemView.swift */; };
+		78B72C2825FF01FE007C289D /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B72C2725FF01FE007C289D /* tabView.swift */; };
+		78B72C2E25FF0275007C289D /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B72C2D25FF0275007C289D /* FavouriteView.swift */; };
+		78B72C3225FF02DC007C289D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B72C3125FF02DC007C289D /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		7877C30725FCABED00BDA16D /* Seller+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seller+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7877C30825FCABED00BDA16D /* Seller+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seller+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7877C30E25FCAC6A00BDA16D /* newItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newItemView.swift; sourceTree = "<group>"; };
+		78B72C2725FF01FE007C289D /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
+		78B72C2D25FF0275007C289D /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		78B72C3125FF02DC007C289D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,9 @@
 		7877C30025FCA88300BDA16D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				78B72C3025FF02D1007C289D /* Favourites */,
+				78B72C2C25FF0266007C289D /* Search */,
+				78B72C2625FF01F0007C289D /* Tab */,
 				7808AF6425FE0F81005E30BC /* Photos */,
 				789B5FB225FDDD4F00622191 /* NewItem */,
 				789B5FB125FDDD4700622191 /* Detail */,
@@ -145,6 +154,30 @@
 				7877C2F525FCA81300BDA16D /* Rommel_Inventory.xcdatamodeld */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		78B72C2625FF01F0007C289D /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				78B72C2725FF01FE007C289D /* tabView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		78B72C2C25FF0266007C289D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				78B72C2D25FF0275007C289D /* FavouriteView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		78B72C3025FF02D1007C289D /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				78B72C3125FF02DC007C289D /* SearchView.swift */,
+			);
+			path = Favourites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,15 +249,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B72C2825FF01FE007C289D /* tabView.swift in Sources */,
 				7862173A25FDDEA400C0A5E2 /* Item+CoreDataClass.swift in Sources */,
 				7877C30B25FCABED00BDA16D /* Seller+CoreDataClass.swift in Sources */,
 				7853317925FCFBD400C6F454 /* DetailView.swift in Sources */,
 				7877C2F425FCA81300BDA16D /* Persistence.swift in Sources */,
 				7877C30C25FCABED00BDA16D /* Seller+CoreDataProperties.swift in Sources */,
 				7877C30225FCA88C00BDA16D /* HomeView.swift in Sources */,
+				78B72C3225FF02DC007C289D /* SearchView.swift in Sources */,
 				7853318025FDC73700C6F454 /* HomeRow.swift in Sources */,
 				7877C2F725FCA81300BDA16D /* Rommel_Inventory.xcdatamodeld in Sources */,
 				7877C30F25FCAC6A00BDA16D /* newItemView.swift in Sources */,
+				78B72C2E25FF0275007C289D /* FavouriteView.swift in Sources */,
 				7808AF7025FE13D5005E30BC /* ImagePicker.swift in Sources */,
 				7862173B25FDDEA400C0A5E2 /* Item+CoreDataProperties.swift in Sources */,
 				7877C2EB25FCA81100BDA16D /* Rommel_InventoryApp.swift in Sources */,

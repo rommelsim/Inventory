@@ -13,7 +13,7 @@ struct Rommel_InventoryApp: App {
 
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            tabView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
